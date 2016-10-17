@@ -63,11 +63,19 @@ The below features should be available to the PowerShell cmdlet's
 
 ###Connect to TFS server
 ```powershell
+###################################################################################
+# Connect to TFS
+###################################################################################
 Import-Module "TFVC.PowerShell.psd1" -Force
 Connect-Tfs -Uri "http://mytfsserver.localhost.com:8080/tfs/DefaultCollection"
+###################################################################################
 ```
 
 ###Disconnect from TFS server
 ```powershell
+###################################################################################
+# Disconnect from TFS
+###################################################################################
 Disconnect-Tfs
+###################################################################################
 ```
