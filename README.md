@@ -50,13 +50,24 @@ The below features should be available to the PowerShell cmdlet's
 2. Disconnect from TFS (Disconnect-Tfs)
 3. Create Workspace (Create-TfsWorkspace)
 4. Delete Workspace (Delete-TfsWorkspace)
-5. Workspace exist ()
-6. Server path exist
-7. Workspace mapping exist
-8. Create Workspace mapping
-9. Get workspace
-10. Get items from TFS
-11. Check-out item from TFS
-12. Check-in item to TFS
-13. Undo item from TFS
-14. Create branch in TFS
+5. Workspace exist (Exist-TfsWorkspace)
+6. Server path exist (Exist-TfsServerPath)
+7. Workspace mapping exist (Exist-TfsWorkspaceMapping)
+8. Create Workspace mapping (Create-TfsWorkspaceMapping)
+9. Get workspace (Get-TfsWorkspace)
+10. Get items from TFS (Get-TfsItems)
+11. Check-out item from TFS (CheckOut-TfsItem)
+12. Check-in item to TFS (CheckIn-TfsItem)
+13. Undo item from TFS (Undo-TfsItem)
+14. Create branch in TFS (Create-TfsBranch)
+
+###Connect to TFS server
+```powershell
+Import-Module "TFVC.PowerShell.psd1" -Force
+Connect-Tfs -Uri "http://mytfsserver.localhost.com:8080/tfs/DefaultCollection"
+```
+
+###Disconnect from TFS server
+```powershell
+Disconnect-Tfs
+```

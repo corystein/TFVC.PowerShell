@@ -28,6 +28,7 @@ namespace TFVC.PowerShell
 		/// </summary>
 		protected override void ProcessRecord ()
 		{
+            WriteVerbose($"Connecting to [{uri}]...");
 			WriteObject ($"Connect to [{uri}]");
 		}
 	}
