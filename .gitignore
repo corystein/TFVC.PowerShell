@@ -7,6 +7,9 @@
 packages/
 TestResults/
 
+# Source
+.vs/
+
 # globs
 Makefile.in
 *.DS_Store
@@ -28,6 +31,7 @@ tarballs/
 test-results/
 Thumbs.db
 Settings.settings
+Settings.Designer.cs
 
 # Mac bundle stuff
 *.dmg
