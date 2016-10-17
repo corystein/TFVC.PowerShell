@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFVC.PowerShell", "TFVC.PowerShell\TFVC.PowerShell.csproj", "{7AEF560E-3D58-439A-9B64-127ACFA516B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2539CAD4-5415-49B1-95BE-0CC2F1DB6282}"
@@ -9,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFVC.PowerShell.UnitTest", "TFVC.PowerShell.UnitTest\TFVC.PowerShell.UnitTest.csproj", "{98028B14-AF9B-4E71-8620-CEBD88EE1D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHarness", "TestHarness\TestHarness.csproj", "{A91EA8DE-B4E1-475E-A196-053EFF46F048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,12 @@ Global
 		{98028B14-AF9B-4E71-8620-CEBD88EE1D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98028B14-AF9B-4E71-8620-CEBD88EE1D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98028B14-AF9B-4E71-8620-CEBD88EE1D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A91EA8DE-B4E1-475E-A196-053EFF46F048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A91EA8DE-B4E1-475E-A196-053EFF46F048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A91EA8DE-B4E1-475E-A196-053EFF46F048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A91EA8DE-B4E1-475E-A196-053EFF46F048}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

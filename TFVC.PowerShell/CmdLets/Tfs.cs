@@ -135,4 +135,28 @@ namespace TFVC.PowerShell
 			WriteObject ("Hello " + name + "!");
 		}
 	}
+
+    [Cmdlet("Exist", "Items")]
+    public class ExistWorkspace : Cmdlet
+    {
+        /// <summary>
+        /// Gets or sets the name.
+        /// </summary>
+        /// <value>The name.</value>
+        [Parameter(Mandatory = true)]
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        private string name;
+
+        /// <summary>
+        /// Processes the record.
+        /// </summary>
+        protected override void ProcessRecord()
+        {
+            WriteObject("Hello " + name + "!");
+        }
+    }
 }

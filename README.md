@@ -43,3 +43,20 @@ Get-Module
 Get-Command -Module "PwC.GATT.PowerShell.Common" -CommandType cmdlet | Format-Table
 ```
 
+##Features
+The below features should be available to the PowerShell cmdlet's 
+
+1. Connect to TFS (Connect-Tfs)
+2. Disconnect from TFS (Disconnect-Tfs)
+3. Create Workspace (Create-TfsWorkspace)
+4. Delete Workspace (Delete-TfsWorkspace)
+5. Workspace exist ()
+6. Server path exist
+7. Workspace mapping exist
+8. Create Workspace mapping
+9. Get workspace
+10. Get items from TFS
+11. Check-out item from TFS
+12. Check-in item to TFS
+13. Undo item from TFS
+14. Create branch in TFS
