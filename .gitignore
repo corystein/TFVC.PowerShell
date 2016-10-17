@@ -7,9 +7,11 @@
 packages/
 TestResults/
 
-# Source
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Visual Studio 2015 cache/options directory
 .vs/
-.vs/[Cconfig]/
 
 # globs
 Makefile.in
@@ -30,9 +32,27 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
-Thumbs.db
+[Tt]humbs.db
 Settings.settings
 Settings.Designer.cs
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+# NuGet v3's project.json files produces more ignoreable files
+*.nuget.props
+*.nuget.targets
+
+# Visual Studio cache files
+# files ending in .cache can be ignored
+*.[Cc]ache
+# but keep track of directories ending in .cache
+!*.[Cc]ache/
 
 # Mac bundle stuff
 *.dmg
